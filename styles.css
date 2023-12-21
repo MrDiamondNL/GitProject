@@ -8,14 +8,22 @@ body {
     margin: 0px;
 }
 
-.container {
+.background {
     background-color: white;
+    min-height: 100vh;;
+    max-width: 800px;
     margin: 0px auto;
+
+}
+
+.container {
     max-width: 800px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
     border-radius: 5px;
-    min-height: 100vh;;
+    /* overflow: scroll; */
 }
 
 .heading {
@@ -34,6 +42,7 @@ hr {
 .block {
     margin: auto;
     width: 80%;
+    min-height: 50px;
 }
 
 h3 {
